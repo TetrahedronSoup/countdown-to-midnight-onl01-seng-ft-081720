@@ -1,13 +1,7 @@
-
-  countdown = 10
-while countdown <=10
-  countdown -= 1
-  puts "#{countdown} SECOND(s)!"
-end
-return "HAPPY NEW YEAR!"
-end
- 
-  countdown_with_sleep(.5) = 12
-  while countdown_with_sleep <=12
-  countdown_with_sleep -= 1
+number = 10
+ while number > 0
+   puts "#{number} SECOND(S)!"
+   number -= 1
+ break if n <= 0
+ puts "HAPPY NEW YEAR!"  
 end
