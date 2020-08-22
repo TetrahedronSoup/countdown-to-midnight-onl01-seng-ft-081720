@@ -1,6 +1,6 @@
 
-  countdown = 12
-while countdown <=12
+  countdown = 10
+while countdown <=10
   countdown -= 1
   puts "#{countdown} SECOND(s)!"
 end
