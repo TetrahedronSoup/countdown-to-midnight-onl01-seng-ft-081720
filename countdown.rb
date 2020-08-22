@@ -1,10 +1,21 @@
-LOOPS do
-countdown = 10
-   while countdown > 0
-countdown -= 1
-   puts "#{countdown} SECOND(s)!"
-   
- break if countdown <= 0
- return "HAPPY NEW YEAR!"  
+def countdown(number)
+  while number > 0
+   sleep 1
+    puts "#{number} SECOND(S)!"
+    number -= 1
+  end
+  return "HAPPY NEW YEAR!"
 end
 
+countdown(10)
+
+def countdown_with_sleep(number)
+  while number > 0
+   sleep 1
+    puts "#{number} SECOND(S)!"
+    number -= 1
+  end
+  return "HAPPY NEW YEAR!"
+end
+
+countdown(10)
